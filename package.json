@@ -1,0 +1,32 @@
+{
+  "name": "git_repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/app.js",
+  "scripts": {
+    "prestart": "cd client/git_repo && npm run build",
+    "dev": "node server/app.js",
+    "start": "NODE_ENV=prod node server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambo2299/git_repo.git"
+  },
+  "author": "samyog",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sambo2299/git_repo/issues"
+  },
+  "homepage": "https://github.com/sambo2299/git_repo#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "fs-extra": "^10.0.0",
+    "moment": "^2.29.1",
+    "winston": "^3.3.3",
+    "request": "^2.88.2"
+  }
+}
