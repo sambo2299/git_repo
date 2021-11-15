@@ -1,0 +1,6 @@
+--2021-10-22 11:54:50--  https://art.pfconcept.com/installation/errorfile?clientId=52fb33b0-149f-438a-bd91-4688c86afe07
+Resolving art.pfconcept.com (art.pfconcept.com)... 185.3.178.133
+Connecting to art.pfconcept.com (art.pfconcept.com)|185.3.178.133|:443... connected.
+HTTP request sent, awaiting response... 400 Bad Request
+2021-10-22 11:54:51 ERROR 400: Bad Request.
+
